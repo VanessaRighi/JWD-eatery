@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family:'Poppins',sans-serif;
+}
+header{
+  margin-bottom:20px
+}
+h1{
+  text-align:center;
+  color: #922D50;
+  font-size: 30px;
+}
+body{
+    background-color: #D4E79E;
+}
+
+/* table */
+table{
+    border-spacing: 5px;
+
+}
+td{
+  width: 200px
+}
+th{
+  padding:20px;
+}
+.tr-h2,
+.tr-td {
+  background-color: #d6e7a0;
+}
+
+/* header */
+.intro-container{
+  width:80%;
+  margin:30px auto 30px;
+  color: #922D50;
+}
+.intro-container p{
+  text-align:center;
+}
+/********/
+/* Nav */
+#menu {
+  color: #D4E79E;  
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+
+h2{
+  color: #922D50;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* a links */
+/* a:hover{
+  color: #9C0D38;
+  font-weight: bold;
+  font-size: 30px;
+} */
+a:visited{
+  color: white;
+}
+
+
+/* images */
+img{
+  border-radius: 10px;
+}
+
+button{
+    padding: 10px 40px;
+    background-color: #922D50;
+    border-radius: 30px;
+    border: none;
+    font-family:'Poppins',sans-serif;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu a{
+  margin-left:15px;
+}
+td{
+  color: #501537;
+  text-align: center;
+}
+/****************/
+
+
+/* table containers */
+.table-container{
+  width:100%;
+  background-color: #bac382;
+}
+.table-container table{
+  margin:0 auto;
+ 
+}
+
+/****************/
+
+
+/* grid images  */
+.grid-container{
+  display:grid;
+  grid-template-columns:auto auto auto;
+  grid-gap: 15px;
+}
+.grid-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+/*************/
+
+/* form footer */
+input{
+  border-radius: 15px;
+  border: none;
+  height: 30px; 
+  padding: 10px;
+  width:50%;
+  margin:10px;
+}
+.form-wrapper{
+  width:60%;
+  margin:20px auto;
+}
+.contact-form{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+
+.contact-form button{
+  width:50%;
+  margin-left:5px;
+}
+
+
+/***** animation ****/
+#logo{
+  animation-delay:5s;
+  animation: fadein 3s;
+}
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity:0.5;
+    transform:rotate(180deg);
+  }
+  100%{
+    opacity:1;
+  }
+}
